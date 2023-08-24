@@ -1,27 +1,20 @@
 # MoviesDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+This movies demo app will show a movie list, orderd by available time and can also be sorted by other headers. you can also select a movie and see some detail infomation about the selected movie.
 
-## Development server
+this movie demo app was generated with [Angular CLI] version 14.0.3.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#INSTALLING THE CODE
 
-## Code scaffolding
+Download or clone the code from this repository.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+In a command window (or the Command prompt in VS Code), type: npm install.
 
-## Build
+In the same command window (or the Command property in VS Code), type: npm start.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The application should then compile and launch in your default browser and navigate to http://localhost:4200/.
+
 
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
