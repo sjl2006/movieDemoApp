@@ -4,7 +4,7 @@ This movies demo app will show a movie list, orderd by available time and can al
 
 This movie demo app was generated with [Angular CLI] version 14.0.3.
 
-# INSTALLING THE CODE
+# Running this demo app
 
 Download or clone the code from this repository.
 
