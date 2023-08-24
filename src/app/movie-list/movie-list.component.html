@@ -1,0 +1,41 @@
+<div class='card'>
+    <div class='card-header h3'>
+      Movies Available Today 
+    </div>
+
+    <div class='card-body'>
+        <div class='table-responsive'>
+          <table class='table table-striped table-hover' >
+            <thead>
+              <tr>
+                <th class="text-primary">Moive</th>
+                <th class="text-primary"><a (click)="sortBy('movieName')">Name {{sortIcon('movieName')}}</a></th>
+                <th class="text-primary"><a (click)="sortBy('provider')">Provider {{sortIcon('provider')}}</a></th>
+                <th class="text-primary"><a (click)="sortBy('availableTime')">Time {{sortIcon('availableTime')}}</a></th>
+                <th class="text-primary"><a (click)="sortBy('price')">Price {{sortIcon('price')}}</a></th>
+                <th class="text-primary"><a (click)="sortBy('rating')">Rating {{sortIcon('rating')}}</a></th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let movie of movies'>
+                    <td>
+                        <img [src]='movie.imageUrl'
+                             [title]='movie.movieName'
+                             [style.width.px]='imageWidth'
+                             [style.margin.px]='imageMargin'>
+                    </td>
+                    <td>
+                      <a [routerLink]="['/',movie.provider,'movie', movie.movieId]">
+                          {{ movie.movieName }}
+                      </a>
+                    </td>
+                    <td> {{movie.provider}} </td>
+                    <td> {{movie.availableTime | date:'shortTime'}} </td>
+                    <td> {{movie.price | currency:'USD':'symbol':'1.2-2'}} </td>
+                    <td> {{movie.rating}} </td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+</div>

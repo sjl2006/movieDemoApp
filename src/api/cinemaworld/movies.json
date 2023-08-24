@@ -1,0 +1,68 @@
+ [
+      { 
+        "movieId": 1,
+        "movieName": "Barbie",
+        "provider": "Cinema World",
+        "availableTime": "9/15/23, 1:00 PM",
+        "price": 10,
+        "rating": 4.6,
+        "imageUrl":"assets/images/Barbie.png",
+        "director": "Greta",
+        "duration": "114 mins",
+        "genre": "Action",
+        "classfication": "PG"
+      },
+      {
+        "movieId": 2,
+        "movieName": "BlackBerry",
+        "provider": "Cinema World",
+        "availableTime": "9/15/23, 2:00 PM",
+        "price": 20,
+        "rating": 3.8,
+        "imageUrl":"assets/images/BlackBerry.png",
+        "director": "Nick",
+        "duration": "100 mins",
+        "genre": "Action",
+        "classfication": "PG"
+      },
+      {
+        "movieId": 3,
+        "movieName": "Oppenheimer",
+        "provider": "Cinema World",
+        "availableTime": "9/15/23, 3:00 PM",
+        "price": 30,
+        "rating": 2.2,
+        "imageUrl":"assets/images/Oppenheimer.png",
+        "director": "Mike",
+        "duration": "120 mins",
+        "genre": "Document",
+        "classfication": "PG"
+      },
+      {
+        "movieId": 4,
+        "movieName": "Strays",
+        "provider": "Cinema World",
+        "availableTime": "9/15/23, 4:00 PM",
+        "price": 40,
+        "rating": 4.5,
+        "imageUrl":"assets/images/Strays.png",
+        "director": "Carl",
+        "duration": "130 mins",
+        "genre": "SciFI",
+        "classfication": "PG"
+      },
+      {
+        "movieId": 5,
+        "movieName": "The First Slam Dunk.",
+        "provider": "Cinema World",
+        "availableTime": "9/15/23, 5:00 PM",
+        "price": 50,
+        "rating": 3.2,
+        "imageUrl":"assets/images/The-First-Slam-Dunk.png",
+        "director": "Carlos",
+        "duration": "140 mins",
+        "genre": "Action",
+        "classfication": "PG"
+      }
+    ]
+ 

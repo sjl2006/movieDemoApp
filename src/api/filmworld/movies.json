@@ -1,0 +1,68 @@
+[
+    { 
+      "movieId": 1,
+      "movieName": "Barbie",
+      "provider": "Film World",
+      "availableTime": "9/15/23, 1:30 PM",
+      "price": 15,
+      "rating": 4.4,
+      "imageUrl":"assets/images/Barbie.png",
+      "director": "Greta",
+      "duration": "114 mins",
+      "genre": "Action",
+      "classfication": "PG"
+    },
+    {
+      "movieId": 2,
+      "movieName": "BlackBerry",
+      "provider": "Film World",
+      "availableTime": "9/15/23, 2:30 PM",
+      "price": 30,
+      "rating": 3.8,
+      "imageUrl":"assets/images/BlackBerry.png",
+      "director": "Nick",
+      "duration": "100 mins",
+      "genre": "Action",
+      "classfication": "PG"
+    },
+    {
+      "movieId": 3,
+      "movieName": "Oppenheimer",
+      "provider": "Film World",
+      "availableTime": "9/15/23, 3:30 PM",
+      "price": 20,
+      "rating": 4.1,
+      "imageUrl":"assets/images/Oppenheimer.png",
+      "director": "Mike",
+      "duration": "120 mins",
+      "genre": "Document",
+      "classfication": "PG"
+    },
+    {
+      "movieId": 4,
+      "movieName": "Strays",
+      "provider": "Film World",
+      "availableTime": "9/15/23, 4:30 PM",
+      "price": 70,
+      "rating": 3.6,
+      "imageUrl":"assets/images/Strays.png",
+      "director": "Carl",
+      "duration": "130 mins",
+      "genre": "SciFI",
+      "classfication": "PG"
+    },
+    {
+      "movieId": 5,
+      "movieName": "Sound of Freedom",
+      "provider": "Film World",
+      "availableTime": "9/15/23, 5:30 PM",
+      "price": 60,
+      "rating": 3.9,
+      "imageUrl":"assets/images/Sound-of-Freedom.png",
+      "director": "Carlos",
+      "duration": "140 mins",
+      "genre": "Action",
+      "classfication": "PG"
+    }
+  ]
+
