@@ -1,10 +1,10 @@
 # MoviesDemo
 
-This movies demo app will show a movie list, orderd by available time and can also be sorted by other headers. you can also select a movie and see some detail infomation about the selected movie.
+This movies demo app will show a movie list, orderd by available time and can also be sorted by other headers. You can also select a movie and see some detail infomation about the selected movie.
 
-this movie demo app was generated with [Angular CLI] version 14.0.3.
+This movie demo app was generated with [Angular CLI] version 14.0.3.
 
-#INSTALLING THE CODE
+# INSTALLING THE CODE
 
 Download or clone the code from this repository.
 
