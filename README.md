@@ -1,4 +1,4 @@
-# MoviesDemo
+# Movies Demo App
 
 This movies demo app will show a movie list, orderd by available time and can also be sorted by other headers. You can also select a movie and see some detail infomation about the selected movie.
 
